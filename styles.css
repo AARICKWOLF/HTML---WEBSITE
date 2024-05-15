@@ -1,0 +1,306 @@
+/* Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #004466;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    color: #004466;
+}
+
+.cta {
+    background-color: #004466;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #004466;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #001a33;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+} */
+
+
+
+
+/* Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #004466;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    color: #004466;
+}
+
+.cta {
+    background-color: #004466;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #004466;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #001a33;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+} */
+
+
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #004466;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffa07a; /* Vibrant button color */
+    margin-bottom: 20px;
+
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    color: #004466;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+.cta {
+    background-color: #004466; /* Vibrant button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cta:hover {
+    background-color: #ff7f50; /* Darker shade on hover */
+}
+
+.features {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #004466; /* Vibrant color */
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #001a33; /* Vibrant footer color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
